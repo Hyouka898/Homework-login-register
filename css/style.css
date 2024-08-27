@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  height: 100vh;
+  width: 100%;
+  background-color: #006494;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+  background-color: #0582ca;
+}
+.banner .log-re {
+  height: 100vh;
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .log-re .learning img {
+  width: 400px;
+  height: 100%;
+}
+/* Button */
+.banner .log-re .learning .btn {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+.banner .log-re .learning .btn button {
+  padding: 10px 30px;
+  /* border: 2px solid black; */
+  background-color: #0582ca;
+  transition: 0.4s ease all;
+  color: blue;
+}
+.banner .log-re .learning .btn button:hover {
+  background-color: #006494;
+}
+.banner .log-re .learning button a {
+  text-decoration: none;
+}
+.banner .log-re .learning button a:hover {
+  color: #ffffff;
+}
+/*Login and Register end */
+/*
+
+    Login Start 
+    
+*/
+.banner .login-acc {
+  /* width: 600px; */
+  width: 600px;
+  height: 650px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.banner .login-image img {
+  width: 600px;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .login-acc .text-box {
+  width: 350px;
+  height: 450px;
+  /* border: 2px solid black; */
+}
+.banner .login-acc .text-box h1 {
+  /* padding: 0px 30px; */
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+}
+.banner .login-acc .text-box h3 {
+  color: #b4b2b2;
+  font-size: 15px;
+  /* padding: 0px 30px; */
+  margin-bottom: 20px;
+}
+/*btn google and facebook*/
+.banner .text-box .btn {
+  margin: 0px 0px;
+  width: 210px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .btn .btn-gf button {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  color: #0582ca;
+  background-color: white;
+  transition: 0.4s ease all;
+  border: 2px solid #006494;
+
+  /* background-color: black; */
+}
+.banner .btn .btn-gf button:hover {
+  color: white;
+  background-color: #0582ca;
+  border: 1px solid #006494;
+}
+.banner .login-acc .text-box h5 {
+  font-size: 12px;
+  color: #b4b2b2;
+  padding: 0px 50px;
+  /* margin-bottom: 10px; */
+}
+/* /*table user and password */
+.banner .login-acc .text-box .box-input {
+  border: 2px solid #006494;
+  border-radius: 8px;
+  padding: 0px 10px;
+  margin: 10px 0px;
+  color: black;
+}
+.banner .login-acc .text-box .box-input input {
+  padding: 10px 0px;
+  outline: none;
+  background-color: #ffffff;
+  border: none;
+}
+
+/*checkbox*/
+.banner .login-acc .text-box tr .forgot {
+  margin: 10px 0px;
+  text-decoration: none;
+}
+.banner .login-acc .text-box tr .forgot a {
+  text-decoration: none;
+  color: rgb(33, 56, 119);
+}
+/* btn */
+.banner .login-acc .text-box form tr button {
+  width: 100%;
+  background-color: rgb(57, 72, 112);
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.4s ease all;
+}
+.banner .login-acc .text-box form tr button:hover {
+  background-color: rgb(28, 49, 105);
+  border: none;
+}
+.banner .login-acc .text-box form tr button a {
+  color: white;
+  text-decoration: none;
+}
+.banner .login-acc .text-box form tr button {
+  padding: 10px;
+  width: 100%;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+/* create-acc */
+.banner .login-acc .text-box .dun-have-acc {
+  margin: 10px 0px;
+}
+.banner .login-acc .text-box tr td .create-acc a {
+  margin: 10px 0px;
+  text-decoration: none;
+  color: rgb(33, 56, 119);
+}
+
+/*Home pagge*/
+.banner .home-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../assets/image/jade-stephens-T-FSAK4Bv9c-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 
+            Forget password 
+*/
+.banner .forget-acc {
+  width: 600px;
+  height: 650px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  /* border: 2px solid black; */
+}
+.banner .forget-image {
+  background-color: #0582ca;
+  width: 600px;
+  height: 630px;
+}
+.banner .forget-image img {
+  width: 600px;
+}
+.banner .forget-acc .text-box {
+  width: 350px;
+  height: 430px;
+  /* border: 2px solid rgb(124, 15, 15); */
+}
+.banner .forget-acc .text-box h1 {
+  /* padding: 0px 30px; */
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+}
+.banner .forget-acc .text-box h3 {
+  color: #b4b2b2;
+  font-size: 15px;
+  /* padding: 0px 30px; */
+  margin-bottom: 20px;
+}
+/* /*table email and repeat email */
+.banner .forget-acc .text-box .box-input {
+  border: 2px solid #006494;
+  border-radius: 8px;
+  padding: 0px 10px;
+  margin: 10px 0px;
+}
+.banner .forget-acc .text-box .box-input input {
+  padding: 10px 0px;
+  outline: none;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+}
+/* btn OTP*/
+.banner .forget-acc .text-box form tr button {
+  width: 100%;
+  background-color: rgb(57, 72, 112);
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.4s ease all;
+  padding: 10px;
+  width: 100%;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.banner .forget-acc .text-box form tr button:hover {
+  background-color: rgb(28, 49, 105);
+  border: none;
+}
+.banner .forget-acc .text-box form tr button a {
+  text-decoration: none;
+}
+.banner .forget-acc .text-box form tr button a:hover {
+  color: white;
+}
+/* 
+
+Create Acount
+
+*/
+.banner .create-acc {
+  width: 600px;
+  height: 630px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.banner .create-image {
+  background-color: #0582ca;
+}
+.banner .create-image img {
+  width: 600px;
+  height: 630px;
+}
+.banner .create-acc .text-box {
+  width: 350px;
+  height: 450px;
+  /* border: 2px solid black; */
+}
+.banner .create-acc .text-box h1 {
+  /* padding: 0px 30px; */
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+}
+.banner .create-acc .text-box h3 {
+  color: #b4b2b2;
+  font-size: 15px;
+  /* padding: 0px 30px; */
+  margin-bottom: 20px;
+}
+/* /*table user email password comform password */
+.banner .create-acc .text-box .box-input {
+  border: 2px solid #006494;
+  border-radius: 8px;
+  padding: 0px 10px;
+  margin: 10px 0px;
+}
+.banner .create-acc .text-box .box-input input {
+  padding: 10px 0px;
+  outline: none;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+}
+/*checkbox*/
+.banner .create-acc .text-box td .accept {
+  margin-bottom: 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  /* border: 2px solid black; */
+}
+
+/* btn Login*/
+.banner .create-acc .text-box form tr button {
+  width: 100%;
+  background-color: rgb(57, 72, 112);
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.4s ease all;
+  padding: 10px;
+  width: 100%;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.banner .create-acc .text-box form tr button:hover {
+  background-color: rgb(28, 49, 105);
+  border: none;
+}
+.banner .create-acc .text-box form tr button a {
+  text-decoration: none;
+}
+.banner .create-acc .text-box form tr button a:hover {
+  color: white;
+}
+/* Login acc */
+.banner .create-acc .text-box .have-acc {
+  margin: 10px 0px;
+}
+.banner .create-acc .text-box tr td .login-now a {
+  margin: 10px 0px;
+  text-decoration: none;
+  color: rgb(33, 56, 119);
+}
+/*
+     new password
+
+*/
+.banner .new-password {
+  width: 600px;
+  height: 630px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.banner .d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.banner .new-password-image {
+  background-color: #0582ca;
+}
+.banner .new-password-image img {
+  width: 600px;
+  height: 630px;
+  /* background-color: #006494; */
+}
+.banner .new-password .text-box {
+  width: 400px;
+  height: 450px;
+  /* border: 2px solid rgb(124, 15, 15); */
+}
+.banner .new-password .text-box h1 {
+  /* padding: 0px 30px; */
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+}
+.banner .new-password .text-box h3 {
+  color: #b4b2b2;
+  font-size: 15px;
+  /* padding: 0px 30px; */
+  margin-bottom: 20px;
+}
+.banner .new-password .text-box tr td .box-input {
+  border: 2px solid #006494;
+  border-radius: 8px;
+  padding: 0px 10px;
+  margin: 10px 0px;
+}
+.banner .new-password .text-box .box-input input {
+  padding: 10px 0px;
+  outline: none;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+}
+.banner .new-password .text-box form tr button {
+  width: 100%;
+  background-color: rgb(57, 72, 112);
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.4s ease all;
+  padding: 10px;
+  width: 100%;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.banner .new-password .text-box form tr button:hover {
+  background-color: rgb(28, 49, 105);
+  border: none;
+}
+.banner .new-password .text-box form tr button a {
+  text-decoration: none;
+}
+.banner .new-password .text-box form tr button a:hover {
+  color: white;
+}
+/* 
+
+   Enter OTP
+
+*/
+.banner .enter-otp {
+  width: 600px;
+  height: 630px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.banner .d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.banner .enter-otp-image {
+  background-color: #0582ca;
+}
+.banner .enter-otp-image img {
+  width: 600px;
+  height: 630px;
+  /* background-color: #006494; */
+}
+.banner .enter-otp .text-box {
+  width: 400px;
+  height: 450px;
+  /* border: 2px solid rgb(124, 15, 15); */
+}
+.banner .enter-otp .text-box h1 {
+  /* padding: 0px 30px; */
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+  margin-bottom: 10px;
+}
+.banner .enter-otp .text-box h3 {
+  color: #b4b2b2;
+  font-size: 15px;
+  /* padding: 0px 30px; */
+  margin-bottom: 20px;
+}
+.banner .enter-otp .text-box h3 a {
+  color: #006494;
+}
+.banner .enter-otp .text-box form tr input {
+  padding: 5px 3px;
+  outline: none;
+}
+/* .banner .enter-otp .text-box form tr .text-box {
+} */
